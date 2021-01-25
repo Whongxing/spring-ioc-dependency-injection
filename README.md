@@ -32,4 +32,4 @@ AutoWiring(自动绑定模式)
      默认ByName
   - @Inject
 - 方法注入  @Autowired
-- 接口回调  
+- 接口回调  1
