@@ -7,11 +7,12 @@
         <property name="id" value="1"/>
     </bean>
 
-    <bean id="superUser" class="domain.SuperUser" parent="userTest" primary="true">
+    <bean id="superUser" class="domain.SuperUser" parent="userTest">
         <property name="age" value="23"/>
     </bean>
 
-    <bean id="userDao" class="domain.UserDao" autowire="byName">
-    </bean>
+ <!--   <bean id="userDao" class="domain.UserDao">
+        <property name="userTest" ref="userTest"/>
+    </bean>-->
 
 </beans>

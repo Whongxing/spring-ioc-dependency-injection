@@ -4,6 +4,14 @@ public class UserTest {
     private Integer id;
     private String name;
 
+    public UserTest(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public UserTest(){};
+
+
     public Integer getId() {
         return id;
     }
