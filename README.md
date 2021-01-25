@@ -24,6 +24,7 @@ AutoWiring(自动绑定模式)
     - byType
 - 构造器
 
+    -构造器注入推荐使用，Setter注入有点不稳地，因为setter方法的执行顺序不确定
 - 字段注入  @Autowired
 
   - @Autowired
@@ -32,4 +33,6 @@ AutoWiring(自动绑定模式)
      默认ByName
   - @Inject
 - 方法注入  @Autowired
-- 接口回调  1
+- 接口回调  
+
+    - 接口回调注入： 有一个系列的名称Aware
