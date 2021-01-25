@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 
 /**
  * 依赖注入 Setter方法注入 测试Demo
- * 1、注解  annotationConfigApplicationContext
+ * 1、注解  annotationConfigApplicationCont    ext
  * 2、配置文件  ClassPathXmlApplicationContext
  */
 public class DependencyInjectionSetterTest {
